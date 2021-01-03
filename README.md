@@ -22,6 +22,7 @@
 ### Association
 
 -belongs_to :user
+-has_many :cards
   
 
 ## cards テーブル
@@ -33,7 +34,7 @@
 | list           | references | null:false, foreign_key: true  |
 
 ### Association
--has_many :lists
+-belogs_to :list
 
 
 
