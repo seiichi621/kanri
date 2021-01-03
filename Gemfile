@@ -54,3 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
+
+gem 'pg', group: :production 
+
+gem 'sqlite3', '~>1.4', group: :development 
